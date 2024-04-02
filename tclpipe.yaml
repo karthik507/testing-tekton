@@ -1,0 +1,26 @@
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;33r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[33;1H"/tmp/kubectl-edit-2205336433.yaml" 84L, 2316C[1;1H[34m# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#[m
+[36mapiVersion[m[35m:[m tatacommunications.tatacommunications.com/v1
+[36mkind[m[35m:[m TclPipeline
+[36mmetadata[m[35m:[m
+  [36mcreationTimestamp[m[35m:[m [31m"2024-04-02T06:48:30Z"[m
+  [36mfinalizers[m[35m:[m
+  [33m- [mtclpipeline.tatacommunications.com/finalizer
+  [36mgeneration[m[35m:[m [31m2[m
+  [36mname[m[35m:[m karthi5-tclpipeline-system
+  [36mnamespace[m[35m:[m tclpipeline-system
+  [36mresourceVersion[m[35m:[m [31m"42707851"[m
+  [36muid[m[35m:[m d940e3dc-21c8-48ba-aeb7-97c1cfdc224a
+[36mspec[m[35m:[m
+  [36mpipeline[m[35m:[m
+    [36mapiVersion[m[35m:[m tekton.dev/v1beta1
+    [36mkind[m[35m:[m Pipeline
+    [36mmetadata[m[35m:[m [35m{}[m
+    [36mspec[m[35m:[m[22;7H[36mparams[m[35m:[m[23;7H[33m- [m[36mdescription[m[35m:[m First repository url[24;9H[36mname[m[35m:[m gitrepositoryurl[25;9H[36mtype[m[35m:[m string[26;7H[36mtasks[m[35m:[m[27;7H[33m- [m[36mname[m[35m:[m task1[28;9H[36mtaskRef[m[35m:[m[29;11H[36mname[m[35m:[m task1
+  [36mtasks[m[35m:[m
+  [33m- [m[36mname[m[35m:[m task1
+    [36mspec[m[35m:[m[33;109H1,1[11CTop[1;1H[?25h[?25l[33;99H[A[1;1H[33;99H  [1;1H[?25h[?25l[33;1HType  :qa  and press <Enter> to exit Vim[33;42H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;99H[A[1;1H[33;99H  [1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;99H~@k[1;1H[33;99H   [1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;99H[A[1;1H[33;99H  [1;1H[?25h[?25l[33;99H[A[1;1H[33;99H  [1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;109H[K[33;109H1,1[11CTop[1;1H[?25h[?25l[33;99H^M[1;1H[33;99H  [2;1H[33;109H2[2;1H[?25h[?25l[33;99H^M[2;1H[33;99H  [3;1H[33;109H3[3;1H[?25h[?25l[33;99H^M[3;1H[33;99H  [4;1H[33;109H4[4;1H[?25h[?25l[33;99H^M[4;1H[33;99H  [5;1H[33;109H5[5;1H[?25h[?25l[33;99Hc[5;1H[?25h[?25l[33;99H [5;1H[?25h[?25l[33;109H[K[33;109H5,1[11CTop[5;1H[?25h[?25l[33;99H^M[5;1H[33;99H  [6;1H[33;109H6[6;1H[?25h[?25l[33;99H^M[6;1H[33;99H  [7;1H[33;109H7[7;1H[?25h[?25l[33;99H^M[7;1H[33;99H  [8;3H[33;109H8,3[8;3H[?25h[?25l[33;99H^M[8;3H[33;99H  [9;3H[33;109H9[9;3H[?25h[?25l[33;99H^M[9;3H[33;99H  [10;3H[33;109H10,3[10;3H[?25h[?25l[33;99H^M[10;3H[33;99H  [11;3H[33;110H1[11;3H[?25h[?25l[33;109H[K[33;109H11,3[10CTop[11;3H[?25h[?25l[33;109H[K[33;109H11,3[10CTop[11;3H[?25h[?25l[33;109H[K[33;109H11,3[10CTop[11;3H[?25h[?25l[33;109H[K[33;109H11,3[10CTop[11;3H[?25h[33;1H[?2004l[?2004l[?1l>[>4;m[?1049l[23;0;0tVim: Error reading input, exiting...
+Vim: Finished.
+[33;1H[?25h[23;2t[23;1t
